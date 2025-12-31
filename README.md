@@ -18,9 +18,20 @@ To determine whether there is a statistically significant difference in classifi
 - Visual analysis using boxplots and histograms
 
 ## Results
-- J48 achieved higher mean accuracy than MLP
-- Paired t-test showed a statistically significant difference (p < 0.05)
-- J48 demonstrated more stable performance across trials
+The J48 Decision Tree achieved a higher mean accuracy than the Multilayer Perceptron across 30 trials.
+A paired-sample t-test confirmed the difference was statistically significant (p < 0.05).
+
+### Statistical Analysis and Visualizations
+
+**Paired t-test results**
+![Paired t-test](images/ttest.png)
+
+**Accuracy distribution (Boxplot)**
+![Boxplot](images/boxplot.png)
+
+**Accuracy difference distribution (Histogram)**
+![Histogram](images/histogram.png)
+
 
 ## Key Takeaways
 - Decision Trees performed better on this categorical dataset
