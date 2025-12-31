@@ -25,13 +25,15 @@ A paired-sample t-test confirmed the difference was statistically significant (p
 
 **Paired t-test results**
 ![Paired t-test](/ttest.png)
+- This figure illustrates a two-tailed t-test where the observed test statistic falls within the rejection region beyond the critical values, indicating a statistically significant difference between the J48 and MLP model accuracies.
 
 **Accuracy distribution (Boxplot)**
 ![Boxplot](/boxplot.png)
+- The boxplot shows that J48 achieved a higher median accuracy with a tighter spread across 30 trials, indicating more consistent and reliable performance than the more variable MLP model.
 
 **Accuracy difference distribution (Histogram)**
 ![Histogram](/histogram.png)
-
+- The histogram demonstrates that accuracy differences were mostly positive and approximately normally distributed, confirming that J48 consistently outperformed MLP and that the paired t-test assumptions were satisfied.
 
 ## Key Takeaways
 - Decision Trees performed better on this categorical dataset
