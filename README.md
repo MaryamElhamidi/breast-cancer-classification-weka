@@ -24,13 +24,13 @@ A paired-sample t-test confirmed the difference was statistically significant (p
 ### Statistical Analysis and Visualizations
 
 **Paired t-test results**
-![Paired t-test](images/ttest.png)
+![Paired t-test](/ttest.png)
 
 **Accuracy distribution (Boxplot)**
-![Boxplot](images/boxplot.png)
+![Boxplot](/boxplot.png)
 
 **Accuracy difference distribution (Histogram)**
-![Histogram](images/histogram.png)
+![Histogram](/histogram.png)
 
 
 ## Key Takeaways
